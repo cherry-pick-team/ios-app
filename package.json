@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "prop-types": "^15.5.8",
     "react": "16.0.0-alpha.6",
     "react-native": "0.44.0",
     "react-native-drawer": "^2.3.0",
@@ -16,6 +17,7 @@
     "react-native-material-ui": "^1.8.0",
     "react-native-pulse": "^1.0.4",
     "react-native-router-flux": "^3.38.0",
+    "react-native-search-bar": "^3.0.0",
     "react-native-slider": "^0.9.1",
     "react-native-splash-screen": "^2.0.0",
     "react-native-svg": "^5.1.5",

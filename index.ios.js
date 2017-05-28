@@ -7,15 +7,15 @@ import {configureStore} from './lib/store';
 
 export default class Root extends Component {
 
-    render() {
-        return (
-            <Provider store={configureStore()}>
-                <ThemeProvider>
-                    <Router/>
-                </ThemeProvider>
-            </Provider>
-        );
-    }
+	render() {
+		return (
+			<Provider store={configureStore()}>
+				<ThemeProvider>
+					<Router/>
+				</ThemeProvider>
+			</Provider>
+		);
+	}
 }
 
 AppRegistry.registerComponent('ShoZaSong', () => Root);

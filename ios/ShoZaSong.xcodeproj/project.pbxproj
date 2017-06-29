@@ -122,6 +122,20 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
+		1F7685BC1F0510C50021A152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F84C46FD5545A6867FEE5D /* RNSpinkit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 641194871EC9FD4A00D4FC03;
+			remoteInfo = "RNSpinkit-tvOS";
+		};
+		1F7685C01F0510C50021A152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1123FBE622724CF0B0CBAFF7 /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A361E7A31EB0C33D00646005;
+			remoteInfo = "RNSVG-tvOS";
+		};
 		1F8C153A1EC1C508004FEB3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 101D41BB44BF40E289985FAB /* BVLinearGradient.xcodeproj */;
@@ -557,6 +571,7 @@
 			isa = PBXGroup;
 			children = (
 				1F8C155A1EC1C508004FEB3B /* libRNSVG.a */,
+				1F7685C11F0510C50021A152 /* libRNSVG-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -717,6 +732,7 @@
 			isa = PBXGroup;
 			children = (
 				FA3BF4531EDAD96B005F1571 /* libRNSpinkit.a */,
+				1F7685BD1F0510C50021A152 /* libRNSpinkit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -808,6 +824,9 @@
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = W5LKP857U9;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -982,6 +1001,20 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7685BD1F0510C50021A152 /* libRNSpinkit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSpinkit.a;
+			remoteRef = 1F7685BC1F0510C50021A152 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F7685C11F0510C50021A152 /* libRNSVG-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNSVG-tvOS.a";
+			remoteRef = 1F7685C01F0510C50021A152 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		1F8C153B1EC1C508004FEB3B /* libBVLinearGradient.a */ = {
@@ -1406,8 +1439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = W5LKP857U9;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1428,6 +1463,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cherypick.ShoZaSong;
 				PRODUCT_NAME = ShoZaSong;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1437,7 +1473,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5LKP857U9;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1458,6 +1496,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.cherypick.ShoZaSong;
 				PRODUCT_NAME = ShoZaSong;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
